@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: boardingapi
-        image: knoxknot/boardingapi:v1.0.0
+        image: nginx:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: boardingport
